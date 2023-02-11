@@ -5,5 +5,32 @@
     <meta charset="UTF-8" />
 </head>
 <body>
+    <form>
+        <label for="crawler_types">Choose a crawler type:</label>
+        <select name="crawler_types" id="crawlers">
+          <option value="product">Product</option>
+          <option value="review">Review</option>
+          <option value="search">Search</option>
+        </select>
+        <br><br>
+      </form>
+      <form>
+        <label for="sites">Choose a site:</label>
+        <select name="sites" id="sites">
+          <option value="amazon_in">Amazon IN</option>
+          <option value="amazon_ca">Amazon CA</option>
+          <option value="flipkart_in">Flipkart</option>
+          <option value="bigbasket_in">BigBasket</option>
+          <option value="pharmeasy">Pharmeasy</option>
+          <option value="instamart">Instamart</option>
+          <option value="blinkit">Blinkit</option>
+          <option value="zepto">Zepto</option>
+          <option value="1mg">1mg</option>
+        </select>
+        <br><br>
+      </form>
+    <button id="submit_button">Submit</button>
+    <script src="./public/script.js"></script>
+
 </body>
 </html>
